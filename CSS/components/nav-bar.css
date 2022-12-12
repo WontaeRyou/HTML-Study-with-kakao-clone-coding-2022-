@@ -1,4 +1,5 @@
 .nav {
+    width:100%;
     position: fixed;
     bottom: 0;
     background-color: #f9f9fa;
@@ -13,7 +14,6 @@
 .nav__link {
     position: relative;
     color: #2e363e;
-
 }
 .nav_notification {
     background-color: tomato;
@@ -33,15 +33,12 @@
 @keyframes notificationAnimation {
     0%{
         transform: none;
-
     }
     50%{
         transform: translateY(-5px) rotateY(180deg);
-
     }
     100%{
         transform: none;
-
     }
 }
 .nav_notification {
