@@ -25,15 +25,6 @@
     justify-content: space-between;
     color: rgba(0,0,0,0.5);
 }
-
-@keyframes hideSplashScreen {
-    from { opacity: 1;
-}
-to {
-    opacity: 0;
-    visibility: hidden;
-}
-
 .splash-screen {
     background-color: yellow;
     position: absolute;
@@ -47,3 +38,12 @@ to {
     animation: hideSplashScreen 1s ease-in-out forwards;
     animation-delay: 2s
 }
+
+@keyframes hideSplashScreen {
+    from { opacity: 1;
+}
+to {
+    opacity: 0;
+    visibility: hidden;
+}
+
